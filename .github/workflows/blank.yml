@@ -27,6 +27,9 @@ jobs:
         with:
           submodules: 'recursive'
 
+      - name: Run Xcode-select
+        run: "sudo xcode-select --switch /Applications/Xcode_14.3.1.app"
+
       - name: Install deps
         run: "brew install coreutils ninja"
 
