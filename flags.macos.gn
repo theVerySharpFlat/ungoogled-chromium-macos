@@ -13,4 +13,3 @@ proprietary_codecs=true
 symbol_level=0
 use_sysroot=false
 target_cpu = "arm64"
-
